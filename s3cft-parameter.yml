@@ -14,7 +14,7 @@ Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: !Join [ '-', [ !Ref BucketPrepend, s3bucket ] ]
+      BucketName: !Join [ '-', [ !Ref BucketPrepend, s3bucket, safe ] ]
 Outputs:
   BucketName:
     Value: !Ref S3Bucket
