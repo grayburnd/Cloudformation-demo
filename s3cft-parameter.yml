@@ -5,7 +5,7 @@ Parameters:
     Type: String
     Default: dev43554345543345
     AllowedValues:
-      - dev345534534543543
+      - dev43554345543345
       - prod676575476657456
       - stage466546543543
 Resources:
