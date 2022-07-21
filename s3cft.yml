@@ -3,7 +3,7 @@ Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: !Join [ 'nochance', [ safe, s3bucket ] ]
+      BucketName: !Join [ 'nochance376843456564', [ safe, s3bucket ] ]
 Outputs:
   BucketName:
     Value: !Ref S3Bucket
