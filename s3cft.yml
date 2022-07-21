@@ -2,7 +2,9 @@ AWSTemplateFormatVersion: '2010-09-09'
 Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Join [ '', [ !Ref AWS::StackName, s3bucket ] ]
 Outputs:
   BucketName:
-    Value: !Ref 'S3Bucket'
+    Value: !Ref S3Bucket
     Description: Name of the sample Amazon S3 bucket.
