@@ -3,11 +3,11 @@ Parameters:
   BucketPrepend:
     Description: The value prepended at begninning of bucket
     Type: String
-    Default: dev
+    Default: dev43554345543345
     AllowedValues:
-      - dev
-      - prod
-      - stage
+      - dev345534534543543
+      - prod676575476657456
+      - stage466546543543
 Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
