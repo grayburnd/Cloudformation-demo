@@ -9,6 +9,7 @@ Parameters:
       - prod676575476657456
       - stage466546543543
       - sandbox67378432683428
+      - sandbox6737843268342887345276854656543
 Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
